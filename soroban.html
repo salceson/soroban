@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pl">
+        <meta charset="UTF-8" />
+        <title>Soroban</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-theme.css" />
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/soroban-index.js"></script>
+        <style>
+            iframe {
+                margin-left: auto;
+                margin-right: auto;
+                border: 8px solid #444444;
+                width: 1074px;
+                height: 330px;
+            }
+            body {
+                background: url("img/wood.jpg");
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top" class="jumbotron">
+            <div class="container">
+                <h1 class="text-center">Soroban</h1>
+                <p class="text-center"><button id="zero" class="btn btn-danger">Zeruj</button></p>
+            </div>
+        </div>
+        <div class="container text-center">
+            <iframe id="iframe" src="internal.html"></iframe>
+        </div>
+    </body>
+</html>
