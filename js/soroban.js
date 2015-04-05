@@ -38,6 +38,7 @@ var soroban = {
                 el.attr("data-i", i);
                 el.attr("data-j", j);
                 el.attr("data-moved", 0);
+                el.addClass("element");
                 //noinspection JSUnresolvedFunction
                 $(el).click(function () {
                     //noinspection JSUnresolvedFunction
@@ -58,6 +59,7 @@ var soroban = {
             el.attr("data-i", i);
             el.attr("data-j", EARTH_ELEMENTS_COUNT);
             el.attr("data-moved", 0);
+            el.addClass("element");
             el.click(function () {
                 //noinspection JSUnresolvedFunction
                 var i = parseInt($(this).attr("data-i"));
